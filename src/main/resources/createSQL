@@ -1,0 +1,9 @@
+CREATE TABLE Coin (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    code VARCHAR(255),
+    symbol VARCHAR(255),
+    rate VARCHAR(255),
+    rateFloat DECIMAL(15, 4),
+    description VARCHAR(255)
+);
+
